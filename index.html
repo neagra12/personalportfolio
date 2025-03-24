@@ -1,0 +1,348 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/remixicon@3.2.0/fonts/remixicon.css"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css" />
+    <title>Web Design Mastery | Responsive Portfolio</title>
+  </head>
+  <body>
+    <nav>
+      <div class="nav__content">
+        <div class="logo"><a href="#">Neeha</a></div>
+        <label for="check" class="checkbox">
+          <i class="ri-menu-line"></i>
+        </label>
+        <input type="checkbox" name="check" id="check" />
+        <ul>
+          <li><a href="#home">Home</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#projects">Projects</a></li>
+          <li><a href="#skills">Skills</a></li>
+          <li><a href="#experience">Experience</a></li>
+          <li><a href="#publications">Publications</a></li>
+        </ul>
+      </div>
+    </nav>
+
+    <!-- Home Section -->
+    <section id="home" class="section">
+      <div class="section__container">
+        <div class="content">
+          <p class="subtitle">HELLO</p>
+          <h1 class="title">
+            I'm <span>Neeha<br />an</span> Innovator  
+          </h1>
+          <p class="description">
+            Welcome to my portfolio! I'm Neeha, a dedicated Software developer and aspiring Data scientist with a passion for building impactful, scalable, and user-centric solutions. From developing full-stack web applications to creating data-driven insights through machine learning and analytics, I thrive at the intersection of engineering and data. Whether it’s designing robust backend systems, optimizing databases, or transforming raw data into actionable knowledge, I’m driven by the challenge of solving real-world problems through technology.
+          </p>
+          <div class="action__btns">
+            <button class="hire__me" onclick="window.location.href='contact.html'">Contact Me</button>
+            <button class="portfolio">
+              <a href="assets/Neeha_resume(updated) (1).pdf" download="Neeha_Resume.pdf">Download Resume</a>
+            </button>
+          </div>
+        </div>
+        <div class="image">
+          <img src="assets/neeha.jpg" alt="profile" />
+        </div>
+      </div>
+    </section>
+
+    <!-- Other Sections -->
+    <section id="about" class="section"> 
+      <h2>About Me</h2>
+      <p>My journey into technology began with an insatiable curiosity—one that turned into a relentless drive to build, innovate, and solve problems. Growing up, I was captivated by the idea of intelligent systems, inspired by movies like Iron Man and Ex Machina. The dream of creating something as intuitive as JARVIS led me to pursue a Master’s in Computer Science, where I now work on AI applications, data-driven solutions, and scalable software systems that push the boundaries of what’s possible.<br>
+
+        For me, technology isn’t just about writing code—it’s about crafting solutions that make an impact. Whether it’s optimizing algorithms, designing user-friendly applications, or harnessing AI for real-world challenges, I thrive at the intersection of creativity and logic. Collaboration fuels my work, and I love exchanging ideas with like-minded thinkers who share a vision for innovation.
+        
+        <br>When I’m not immersed in tech, you’ll find me getting lost in a sci-fi novel, experimenting with new recipes, or taking long walks where my best ideas often take shape. For me, the best breakthroughs happen when you step away, breathe, and let inspiration strike.</p>
+    </section>
+
+    <section id="projects" class="section">
+      <h2>Projects</h2>
+      <div class="projects__container">
+        <div class="project__card">
+          <div class="project__content">
+            <h3>HoosierHub - The All-in-One Collaboration Platform</h3>
+            <p>
+              HoosierHub is a unified platform that blends social engagement, professional networking, and a built-in marketplace. It offers instant chat, real-time notifications, live polls, encrypted messaging, and monetization options, making it an essential tool for the Indiana University community.
+            </p>
+            <div class="project__tech">
+              
+      <span>TypeScript</span>
+      <span>Spring Boot</span>
+      <span>PostgreSQL</span>
+      <span>Elasticsearch</span>
+      <span>Redis</span>
+      <span>Razorpay</span>
+      <span>AWS S3</span>
+            </div>
+          </div>
+          <div class="project__image">
+            <img src="assets/hoosierproj.jpg" alt="Hoosier Hub Homepage" />
+            <div class="project__overlay">
+              <h4>HOOSIER HUB</h4>
+            </div>
+          </div>
+        </div>
+        <!-- Itinera Project Card -->
+        
+    
+        <!-- Code Explanation Website Card -->
+        <div class="project__card">
+          <div class="project__content">
+            <h3>Code Explanation Website</h3>
+            <p>
+              Created a platform that provides detailed explanations for code snippets in any programming language, such as Python, JavaScript, and C++. Integrated AI-powered explanations to improve understanding and learning.
+            </p>
+            <div class="project__tech">
+              <span>HTML</span>
+              <span>CSS</span>
+              <span>JavaScript</span>
+              <span>Python</span>
+              <span>OpenAI</span>
+            </div>
+          </div>
+          <div class="project__image">
+            <img src="assets/codeweb.png" alt="Code Explanation" />
+            <div class="project__overlay">
+              <h4>UNDERSTAND CODE BETTER</h4>
+            </div>
+          </div>
+        </div>
+    
+        <!-- Twitter Sentiment Analysis Card -->
+        <div class="project__card">
+          <div class="project__content">
+            <h3>Twitter Sentiment Analysis with Emotes</h3>
+            <p>
+              Developed a sentiment analysis tool using a dataset of 1.4 million tweets with text and emoticons, achieving 87% accuracy in sentiment classification using advanced NLP techniques.
+            </p>
+            <div class="project__tech">
+              <span>Python</span>
+              <span>Pandas</span>
+              <span>Numpy</span>
+              <span>Flask</span>
+            </div>
+          </div>
+          <div class="project__image">
+            <img src="assets/sentiment.png" alt="Sentiment Analysis" />
+            <div class="project__overlay">
+              <h4>ANALYZE EMOTIONS</h4>
+            </div>
+          </div>
+        </div>
+        
+        <div class="project__card">
+          <div class="project__content">
+            <h3>AI-Powered Plant Disease Detection</h3>
+            <p>
+              Developed an AI-driven solution to analyze plant health using Vision Transformers (ViT) and classical deep learning models like ResNet and EfficientNet. This project focuses on accurately identifying apple leaf diseases such as cedar rust, apple scab, and black rot. Leveraging an enhanced dataset from the Plant Disease Dataset, the system ensures precise classification, aiding in early disease detection and sustainable agricultural practices.
+            </p>
+            <div class="project__tech">
+              <span>Vision Transformers (ViT)</span>
+              <span>ResNet</span>
+              <span>EfficientNet</span>
+              <span>Deep Learning</span>
+              <span>TensorFlow</span>
+              <span>PyTorch</span>
+            </div>
+          </div>
+          <div class="project__image">
+            <img src="assets/vit.png" alt="AI Plant Disease Detection" />
+            <div class="project__overlay">
+              <h4>PRECISION AGRICULTURE WITH AI</h4>
+            </div>
+          </div>
+        </div>
+        
+        <!-- Page Replacement Algorithms Card -->
+        <div class="project__card">
+          <div class="project__content">
+            <h3>Page Replacement Algorithms Website</h3>
+            <p>
+              Built a website to demonstrate and visualize page replacement algorithms, aiding in the understanding of operating system concepts through interactive simulations.
+            </p>
+            <div class="project__tech">
+              <span>HTML</span>
+              <span>CSS</span>
+              <span>JavaScript</span>
+            </div>
+          </div>
+          <div class="project__image">
+            <img src="assets/pagereplacement.png" alt="Page Replacement Algorithms" />
+            <div class="project__overlay">
+              <h4>LEARN OS CONCEPTS</h4>
+            </div>
+          </div>
+        </div>
+
+        <div class="project__card">
+          <div class="project__content">
+            <h3>IoT-Based Elderly Fall Detection System</h3>
+            <p>
+              Designed an innovative IoT-based system to detect falls among elderly individuals in indoor environments. The system integrates low-power wireless sensor networks, smart devices, and cloud computing to provide real-time fall detection and emergency notifications. Upon detecting a fall, alerts are instantly sent to caregivers and medical personnel, ensuring timely intervention. Healthcare professionals can access fall data stored in the cloud for further analysis, improving elderly care and response strategies.
+            </p>
+            <div class="project__tech">
+              <span>ESP8266</span>
+              <span>MPU6050</span>
+              <span>Arduino IDE</span>
+              <span>Webhooks</span>
+              <span>API Integration</span>
+              <span>Cloud Storage</span>
+            </div>
+          </div>
+          <div class="project__image">
+            <img src="assets/iot.png" alt="IoT Elderly Fall Detection" />
+            <div class="project__overlay">
+              <h4>SMART SAFETY FOR SENIORS</h4>
+            </div>
+          </div>
+        </div>
+        
+        <div class="project__card">
+          <div class="project__content">
+            <h3>Enhanced Anonymous Mutual Authentication & Key Agreement</h3>
+            <p>
+              Developed an improved authentication and key agreement scheme for multi-server environments, addressing vulnerabilities in the existing AMAKAS protocol. The system enhances security by mitigating replay attacks and introducing dynamic credential updates. Utilizing **Elliptic Curve Cryptography (ECC)**, the scheme significantly strengthens authentication in cloud, fog, and edge computing environments while maintaining efficiency and scalability. A comparative evaluation with existing authentication protocols demonstrated the improved security and performance of the proposed model.
+            </p>
+            <div class="project__tech">
+              <span>Elliptic Curve Cryptography</span>
+              <span>Python</span>
+              <span>Cryptographic Protocols</span>
+              <span>Cloud Security</span>
+              <span>Multi-Server Authentication</span>
+            </div>
+          </div>
+          <div class="project__image">
+            <img src="assets/auth.png" alt="Secure Authentication System" />
+            <div class="project__overlay">
+              <h4>SECURE & EFFICIENT AUTHENTICATION</h4>
+            </div>
+          </div>
+        </div>
+        
+      </div>
+    </section>
+
+    <section id="skills" class="section">
+      <h2>Skills</h2>
+      
+      <div class="skills_container">
+        <!-- Programming Languages -->
+        <div class="skill_card">Python</div>
+        <div class="skill_card">C</div>
+        <div class="skill_card">C++</div>
+        <div class="skill_card">Unix</div>
+        <div class="skill_card">Linux</div>
+    
+        <!-- Web Development -->
+        <div class="skill_card">React</div>
+        <div class="skill_card">TypeScript</div>
+        <div class="skill_card">JavaScript</div>
+        <div class="skill_card">Angular</div>
+        <div class="skill_card">NLTK</div>
+        <div class="skill_card">Bootstrap</div>
+        <div class="skill_card">MERN Stack</div>
+        <div class="skill_card">SpringBoot</div>
+        <div class="skill_card">HTML/CSS</div>
+    
+        <!-- Cloud -->
+        <div class="skill_card">Microsoft Azure</div>
+        <div class="skill_card">AWS (S3, EC2)</div>
+        <div class="skill_card">Jetstream</div>
+    
+        <!-- Databases, Datastores -->
+        <div class="skill_card">SQL</div>
+        <div class="skill_card">RDBMS</div>
+        <div class="skill_card">NoSQL</div>
+        <div class="skill_card">Relational Database</div>
+    
+        <!-- Miscellaneous -->
+        <div class="skill_card">Git</div>
+        <div class="skill_card">REST API</div>
+        <div class="skill_card">Docker</div>
+        <div class="skill_card">Data Structures</div>
+        
+        <div class="skill_card">Matplotlib</div>
+        <div class="skill_card">Seaborn</div>
+        <div class="skill_card">Selenium</div>
+        <div class="skill_card">TensorFlow</div>
+        <div class="skill_card">Dynamo DB</div>
+
+        <div class="skill_card">Postman</div>
+        <div class="skill_card">Tableau</div>
+        <div class="skill_card">Render</div>
+
+      </div>
+      
+    </section>
+
+    <section id="experience" class="section">
+      <h2>Experience</h2>
+      <div class="timeline">
+        <div class="timeline__item left">
+          <div class="timeline__content">
+            <h3>Software Developer</h3>
+            <p class="timeline__date">May 2023 - July 2024</p>
+            <p class="timeline__company">Nextun Technology Private Limited</p>
+            <p>
+              Developed and enhanced a data analytics tool using JavaScript, Django, and Python, improving data visualization and achieving a 28% reduction in analysis delays, earning managerial recognition.
+Collaborated with data scientists and engineers to integrate diverse data sources, ensuring accurate processing while maintaining code quality through Git and Agile methodologies.
+            </p>
+          </div>
+        </div>
+        <div class="timeline__item right">
+          <div class="timeline__content">
+            <h3>GUJCOST Research Intern</h3>
+            <p class="timeline__date">May 2023 - July 2023</p>
+            <p class="timeline__company">Gujarat Council On Science & Technology</p>
+            <p>
+              Co-authored an IEEE-published paper on a blockchain-based Kerberos system, proposing smart contract integration, and contributed to a patented contact-less authentication solution with blockchain.
+Conducted research on public and private cloud environments, evaluating their effects on authentication systems and data security to inform innovative security enhancements.
+            </p>
+          </div>
+        </div>
+        <div class="timeline__item left">
+          <div class="timeline__content">
+            <h3>Data Science Intern</h3>
+            <p class="timeline__date">Sept 2022 - Oct 2022</p>
+            <p class="timeline__company">The SPARK Foundation</p>
+            <p>
+              Developed an email spam detection system during my internship at The SPARK Foundation using Python, Pandas, and NumPy. Preprocessed email data with TF-IDF vectorization and built a Naive Bayes model, achieving over 90% accuracy in classifying spam vs. non-spam emails, strengthening my NLP and data analysis skills.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="publications" class="section">
+      <h2>Publications</h2>
+    
+      <div class="publication">
+        <h3>Cancer Detection With Machine Learning Approach: How Effective, How Progressive</h3>
+        <p class="publication__date">IEEE · Mar 19, 2024</p>
+        <p>
+          Machine learning is transforming cancer detection, diagnosis, and treatment. This paper reviews existing research on ML applications in oncology and explores the challenges of integrating AI into healthcare.
+        </p>
+        <a href="https://ieeexplore.ieee.org/document/10461904" target="_blank" class="publication__link">Read Paper</a>
+      </div>
+    <br>
+      <div class="publication">
+        <h3>Patent: Contact-Less Authentication With Blockchain Integration for Access Logs</h3>
+        <p>
+          The current invention demonstrates a contactless authentication system integrating Blockchain with an ID card. It combines face detection, QR code scanning, and Blockchain technology, resulting in a secure, time-efficient authentication system with dynamic access control and log maintenance.
+        </p>
+      </div>
+    </section>
+    
+
+    <script src="script.js"></script>
+  </body>
+</html>
