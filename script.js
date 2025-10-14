@@ -11,6 +11,8 @@ document.addEventListener("DOMContentLoaded", function () {
           block: "start"
       });
 
+      
+
       setTimeout(() => {
           isScrolling = false;
       }, 1000); // 1s delay for smoother transitions
